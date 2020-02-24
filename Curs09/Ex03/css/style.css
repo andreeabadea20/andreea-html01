@@ -4,8 +4,19 @@
   border: 1px solid #000;
   overflow: hidden;
 }
-
+ 
 .float-left {
   float: left;
 }
 
+.orientation-right img{
+  float: right;
+}
+
+.orientation-left img{
+  float: left;
+}
+
+.orientation-none img.float-left{
+float: none;
+}
